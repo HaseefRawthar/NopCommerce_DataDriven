@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome1",
+    "definitions": {
+        "Welcome1": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "profilepicture": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "http"
+                    ],
+                    "qt-uri-extensions": [
+                        ".png"
+                    ]
+                },
+                "location": {
+                    "type": "string"
+                },
+                "createdat": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "createdat",
+                "email",
+                "id",
+                "location",
+                "name",
+                "profilepicture"
+            ],
+            "title": "Welcome1"
+        }
+    }
+}

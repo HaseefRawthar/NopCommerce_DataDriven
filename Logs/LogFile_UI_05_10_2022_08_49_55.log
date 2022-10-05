@@ -1,0 +1,13 @@
+2022-10-05 08:49:55,298  INFO [main] SetUp:31 - Entered readExcel method
+2022-10-05 08:49:55,706  INFO [main] SetUp:80 - Invalid login test
+2022-10-05 08:49:55,832  INFO [main] SetUp:48 - Entered getValue method
+2022-10-05 08:49:55,837  INFO [main] SetUp:48 - Entered getValue method
+2022-10-05 08:50:26,978  INFO [main] SetUp:43 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='Email']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'HASEEFRAWTHAR', ip: '192.168.225.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8b9e9989a9d7f8be63b5524b7848ea4, findElement {using=xpath, value=//input[@id='Email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\HASEEF~1.RAW\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53817}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53817/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d8b9e9989a9d7f8be63b5524b7848ea4

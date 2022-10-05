@@ -1,0 +1,3 @@
+2022-10-05 09:48:44,183  INFO [main] SetUp:84 - Report status initiated
+2022-10-05 09:48:50,281  INFO [main] SetUp:108 - enter testReportResult method 
+2022-10-05 09:48:50,283  INFO [main] SetUp:125 - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "com.NopCommerce.baseclass.SetUp.eTest" is null

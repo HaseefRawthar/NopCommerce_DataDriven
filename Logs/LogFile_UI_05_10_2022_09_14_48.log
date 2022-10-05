@@ -1,0 +1,9 @@
+2022-10-05 09:14:48,264  INFO [main] SetUp:31 - Entered readExcel method
+2022-10-05 09:14:48,617  INFO [main] SetUp:50 - Invalid login test
+2022-10-05 09:14:48,713  INFO [main] SetUp:48 - Entered getValue method
+2022-10-05 09:14:48,717  INFO [main] SetUp:48 - Entered getValue method
+2022-10-05 09:14:51,548  INFO [main] SetUp:77 - Assertion passed
+2022-10-05 09:14:51,562  INFO [main] SetUp:83 - Invalid login test
+2022-10-05 09:14:55,665  INFO [main] SetUp:48 - Entered getValue method
+2022-10-05 09:14:55,665  INFO [main] SetUp:48 - Entered getValue method
+2022-10-05 09:15:01,558  INFO [main] SetUp:110 - Assertion passed

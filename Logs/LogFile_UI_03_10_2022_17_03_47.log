@@ -1,0 +1,14 @@
+2022-10-03 17:03:47,707  INFO [main] SetUp:56 - java.lang.IllegalStateException: The driver executable must exist: C:\Users\haseef.rawthar\eclipse-workspace\NopCommercesrc\main\java\chromedriver.exe
+2022-10-03 17:03:47,713  INFO [main] SetUp:31 - LoginSteps Constructor
+2022-10-03 17:03:47,729  INFO [main] SetUp:31 - Entered readExcel method
+2022-10-03 17:03:48,073 ERROR [main] SetUp:60 - java.lang.NullPointerException
+2022-10-03 17:03:48,074  INFO [main] SetUp:48 - Entered getValue method
+2022-10-03 17:03:48,079  INFO [main] SetUp:48 - Entered getValue method
+2022-10-03 17:03:48,083  INFO [main] SetUp:43 - java.lang.NullPointerException
+2022-10-03 17:03:48,109  INFO [main] SetUp:56 - java.lang.IllegalStateException: The driver executable must exist: C:\Users\haseef.rawthar\eclipse-workspace\NopCommercesrc\main\java\chromedriver.exe
+2022-10-03 17:03:48,110  INFO [main] SetUp:31 - LoginSteps Constructor
+2022-10-03 17:03:48,110  INFO [main] SetUp:31 - Entered readExcel method
+2022-10-03 17:03:48,140 ERROR [main] SetUp:60 - java.lang.NullPointerException
+2022-10-03 17:03:48,141  INFO [main] SetUp:48 - Entered getValue method
+2022-10-03 17:03:48,141  INFO [main] SetUp:48 - Entered getValue method
+2022-10-03 17:03:48,143  INFO [main] SetUp:43 - java.lang.NullPointerException

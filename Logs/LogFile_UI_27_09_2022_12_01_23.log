@@ -1,0 +1,16 @@
+2022-09-27 12:01:26,397  INFO [main] SetUp:45 - Page opened
+2022-09-27 12:01:26,405  INFO [main] SetUp:31 - LoginSteps Constructor
+2022-09-27 12:01:26,435  INFO [main] SetUp:29 - Entered readExcel method
+2022-09-27 12:01:26,506 ERROR [main] SetUp:42 - org.apache.poi.poifs.filesystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+2022-09-27 12:01:31,381  INFO [main] SetUp:45 - Entered getValue method
+2022-09-27 12:01:31,384  INFO [main] SetUp:50 - java.lang.NullPointerException
+2022-09-27 12:01:31,384  INFO [main] SetUp:45 - Entered getValue method
+2022-09-27 12:01:31,384  INFO [main] SetUp:50 - java.lang.NullPointerException
+2022-09-27 12:01:36,300  INFO [main] SetUp:45 - Page opened
+2022-09-27 12:01:36,300  INFO [main] SetUp:31 - LoginSteps Constructor
+2022-09-27 12:01:36,301  INFO [main] SetUp:29 - Entered readExcel method
+2022-09-27 12:01:36,304 ERROR [main] SetUp:42 - org.apache.poi.poifs.filesystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+2022-09-27 12:01:41,032  INFO [main] SetUp:45 - Entered getValue method
+2022-09-27 12:01:41,032  INFO [main] SetUp:50 - java.lang.NullPointerException
+2022-09-27 12:01:41,033  INFO [main] SetUp:45 - Entered getValue method
+2022-09-27 12:01:41,033  INFO [main] SetUp:50 - java.lang.NullPointerException

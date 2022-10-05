@@ -1,0 +1,11 @@
+2022-10-05 09:30:36,850  INFO [main] SetUp:31 - Entered readExcel method
+2022-10-05 09:30:37,438  INFO [main] SetUp:50 - Invalid login test
+2022-10-05 09:30:37,439  INFO [main] SetUp:75 - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "com.NopCommerece.testscripts.AdminLogin.eReports" is null
+2022-10-05 09:30:37,441  INFO [main] SetUp:79 - Assertion passed
+2022-10-05 09:30:37,446  INFO [main] SetUp:106 - enter testReportResult method 
+2022-10-05 09:30:37,448  INFO [main] SetUp:123 - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "com.NopCommerce.baseclass.SetUp.eTest" is null
+2022-10-05 09:30:37,452  INFO [main] SetUp:85 - Invalid login test
+2022-10-05 09:30:37,453  INFO [main] SetUp:110 - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "com.NopCommerece.testscripts.AdminLogin.eReports" is null
+2022-10-05 09:30:37,453  INFO [main] SetUp:114 - Assertion passed
+2022-10-05 09:30:37,455  INFO [main] SetUp:106 - enter testReportResult method 
+2022-10-05 09:30:37,457  INFO [main] SetUp:123 - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "com.NopCommerce.baseclass.SetUp.eTest" is null

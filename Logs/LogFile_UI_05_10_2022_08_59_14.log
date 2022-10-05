@@ -1,0 +1,16 @@
+2022-10-05 08:59:14,609  INFO [main] SetUp:31 - Entered readExcel method
+2022-10-05 08:59:21,704  INFO [main] SetUp:63 - Invalid login test
+2022-10-05 08:59:21,846  INFO [main] SetUp:48 - Entered getValue method
+2022-10-05 08:59:21,852  INFO [main] SetUp:48 - Entered getValue method
+2022-10-05 08:59:24,850  INFO [main] SetUp:89 - Assertion passed
+2022-10-05 08:59:24,878  INFO [main] SetUp:95 - Invalid login test
+2022-10-05 08:59:55,079  INFO [main] SetUp:116 - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'HASEEFRAWTHAR', ip: '192.168.225.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b72d71ac34882ccbeaff306ca831b11, executeScript {script=window.scrollBy(0,350), args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\HASEEF~1.RAW\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54018}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54018/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b72d71ac34882ccbeaff306ca831b11
+2022-10-05 08:59:55,081  INFO [main] SetUp:120 - Assertion passed

@@ -1,0 +1,10 @@
+2022-10-04 07:58:57,254  INFO [main] SetUp:54 - Page opened
+2022-10-04 07:58:57,261  INFO [main] SetUp:31 - LoginSteps Constructor
+2022-10-04 07:58:57,286  INFO [main] SetUp:31 - Entered readExcel method
+2022-10-04 07:59:08,014  INFO [main] SetUp:48 - Entered getValue method
+2022-10-04 07:59:08,023  INFO [main] SetUp:48 - Entered getValue method
+2022-10-04 07:59:11,449  INFO [main] SetUp:54 - Page opened
+2022-10-04 07:59:11,450  INFO [main] SetUp:31 - LoginSteps Constructor
+2022-10-04 07:59:11,451  INFO [main] SetUp:31 - Entered readExcel method
+2022-10-04 07:59:18,756  INFO [main] SetUp:48 - Entered getValue method
+2022-10-04 07:59:18,758  INFO [main] SetUp:48 - Entered getValue method

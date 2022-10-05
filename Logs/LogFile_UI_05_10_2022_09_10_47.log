@@ -1,0 +1,17 @@
+2022-10-05 09:10:48,040  INFO [main] SetUp:31 - Entered readExcel method
+2022-10-05 09:10:48,385  INFO [main] SetUp:50 - Invalid login test
+2022-10-05 09:10:48,488  INFO [main] SetUp:48 - Entered getValue method
+2022-10-05 09:10:48,493  INFO [main] SetUp:48 - Entered getValue method
+2022-10-05 09:10:53,298  INFO [main] SetUp:74 - java.lang.IllegalMonitorStateException: current thread is not owner
+2022-10-05 09:10:53,300  INFO [main] SetUp:78 - Assertion passed
+2022-10-05 09:10:53,314  INFO [main] SetUp:84 - Invalid login test
+2022-10-05 09:10:56,655  INFO [main] SetUp:106 - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="button-text">...</span> is not clickable at point (249, 22). Other element would receive the click: <img title="nopCommerce" alt="nopCommerce" src="https://www.nopcommerce.com/Themes/OfficialSite/Content/images/logo.svg">
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'HASEEFRAWTHAR', ip: '192.168.225.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aae09c5ab3bb2cc78e40f563282b9e08, clickElement {id=3157af59-34a9-4b99-83e3-5eac91a299b0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\HASEEF~1.RAW\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54541}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54541/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (aae09c5ab3bb2cc78e40f563282b9e08)] -> xpath: //span[contains(text(),'Admin area')]]
+Session ID: aae09c5ab3bb2cc78e40f563282b9e08
+2022-10-05 09:10:56,655  INFO [main] SetUp:110 - Assertion passed

@@ -1,0 +1,588 @@
+2022-09-26 12:46:19,973 DEBUG [main] BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.adequateshop.com:80
+2022-09-26 12:46:20,024 DEBUG [main] DefaultClientConnectionOperator:176 - Connecting to restapi.adequateshop.com:80
+2022-09-26 12:46:20,132 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2022-09-26 12:46:20,135 DEBUG [main] RequestAuthCache:76 - Auth cache not set in the context
+2022-09-26 12:46:20,136 DEBUG [main] RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2022-09-26 12:46:20,137 DEBUG [main] RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2022-09-26 12:46:20,138 DEBUG [main] DefaultHttpClient:684 - Attempt 1 to execute request
+2022-09-26 12:46:20,139 DEBUG [main] DefaultClientConnection:276 - Sending request: POST /api/authaccount/login HTTP/1.1
+2022-09-26 12:46:20,139 DEBUG [main] wire:72 -  >> "POST /api/authaccount/login HTTP/1.1[\r][\n]"
+2022-09-26 12:46:20,141 DEBUG [main] wire:72 -  >> "Accept: */*[\r][\n]"
+2022-09-26 12:46:20,141 DEBUG [main] wire:72 -  >> "Content-Type: application/json[\r][\n]"
+2022-09-26 12:46:20,141 DEBUG [main] wire:72 -  >> "Content-Length: 49[\r][\n]"
+2022-09-26 12:46:20,141 DEBUG [main] wire:72 -  >> "Host: restapi.adequateshop.com[\r][\n]"
+2022-09-26 12:46:20,141 DEBUG [main] wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-09-26 12:46:20,141 DEBUG [main] wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)[\r][\n]"
+2022-09-26 12:46:20,142 DEBUG [main] wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-09-26 12:46:20,142 DEBUG [main] wire:72 -  >> "[\r][\n]"
+2022-09-26 12:46:20,143 DEBUG [main] headers:280 - >> POST /api/authaccount/login HTTP/1.1
+2022-09-26 12:46:20,143 DEBUG [main] headers:283 - >> Accept: */*
+2022-09-26 12:46:20,143 DEBUG [main] headers:283 - >> Content-Type: application/json
+2022-09-26 12:46:20,143 DEBUG [main] headers:283 - >> Content-Length: 49
+2022-09-26 12:46:20,143 DEBUG [main] headers:283 - >> Host: restapi.adequateshop.com
+2022-09-26 12:46:20,143 DEBUG [main] headers:283 - >> Connection: Keep-Alive
+2022-09-26 12:46:20,143 DEBUG [main] headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)
+2022-09-26 12:46:20,143 DEBUG [main] headers:283 - >> Accept-Encoding: gzip,deflate
+2022-09-26 12:46:20,144 DEBUG [main] wire:86 -  >> "{"email":"tester@test.com","password":"test@123"}"
+2022-09-26 12:46:20,346 DEBUG [main] wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2022-09-26 12:46:20,350 DEBUG [main] wire:72 -  << "Cache-Control: no-cache[\r][\n]"
+2022-09-26 12:46:20,351 DEBUG [main] wire:72 -  << "Pragma: no-cache[\r][\n]"
+2022-09-26 12:46:20,351 DEBUG [main] wire:72 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2022-09-26 12:46:20,351 DEBUG [main] wire:72 -  << "Expires: -1[\r][\n]"
+2022-09-26 12:46:20,351 DEBUG [main] wire:72 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
+2022-09-26 12:46:20,352 DEBUG [main] wire:72 -  << "X-AspNet-Version: 4.0.30319[\r][\n]"
+2022-09-26 12:46:20,352 DEBUG [main] wire:72 -  << "X-Powered-By: ASP.NET[\r][\n]"
+2022-09-26 12:46:20,352 DEBUG [main] wire:72 -  << "Date: Mon, 26 Sep 2022 07:15:38 GMT[\r][\n]"
+2022-09-26 12:46:20,353 DEBUG [main] wire:72 -  << "Content-Length: 140[\r][\n]"
+2022-09-26 12:46:20,353 DEBUG [main] wire:72 -  << "[\r][\n]"
+2022-09-26 12:46:20,354 DEBUG [main] DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2022-09-26 12:46:20,355 DEBUG [main] headers:264 - << HTTP/1.1 200 OK
+2022-09-26 12:46:20,355 DEBUG [main] headers:267 - << Cache-Control: no-cache
+2022-09-26 12:46:20,355 DEBUG [main] headers:267 - << Pragma: no-cache
+2022-09-26 12:46:20,355 DEBUG [main] headers:267 - << Content-Type: application/json; charset=utf-8
+2022-09-26 12:46:20,355 DEBUG [main] headers:267 - << Expires: -1
+2022-09-26 12:46:20,356 DEBUG [main] headers:267 - << Server: Microsoft-IIS/10.0
+2022-09-26 12:46:20,356 DEBUG [main] headers:267 - << X-AspNet-Version: 4.0.30319
+2022-09-26 12:46:20,356 DEBUG [main] headers:267 - << X-Powered-By: ASP.NET
+2022-09-26 12:46:20,357 DEBUG [main] headers:267 - << Date: Mon, 26 Sep 2022 07:15:38 GMT
+2022-09-26 12:46:20,357 DEBUG [main] headers:267 - << Content-Length: 140
+2022-09-26 12:46:20,360 DEBUG [main] DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2022-09-26 12:46:20,368 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
+2022-09-26 12:46:20,369 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-09-26 12:46:20,398 DEBUG [main] wire:86 -  << "{"code":0,"message":"success","data":{"Id":161540,"Name":"Tester","Email":"tester@test.com","Token":"f3f91ea7-36f4-4cac-a707-8bd7da810c6e"}}"
+2022-09-26 12:46:20,399 DEBUG [main] BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3df1a1ac
+2022-09-26 12:46:20,400 DEBUG [main] BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2022-09-26 12:46:21,142 DEBUG [main] BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.adequateshop.com:80
+2022-09-26 12:46:21,143 DEBUG [main] DefaultClientConnectionOperator:176 - Connecting to restapi.adequateshop.com:80
+2022-09-26 12:46:21,240 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2022-09-26 12:46:21,241 DEBUG [main] RequestAuthCache:76 - Auth cache not set in the context
+2022-09-26 12:46:21,241 DEBUG [main] RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2022-09-26 12:46:21,241 DEBUG [main] DefaultHttpClient:684 - Attempt 1 to execute request
+2022-09-26 12:46:21,241 DEBUG [main] DefaultClientConnection:276 - Sending request: POST /api/users HTTP/1.1
+2022-09-26 12:46:21,242 DEBUG [main] wire:72 -  >> "POST /api/users HTTP/1.1[\r][\n]"
+2022-09-26 12:46:21,242 DEBUG [main] wire:72 -  >> "Authorization: Bearer f3f91ea7-36f4-4cac-a707-8bd7da810c6e[\r][\n]"
+2022-09-26 12:46:21,243 DEBUG [main] wire:72 -  >> "Accept: */*[\r][\n]"
+2022-09-26 12:46:21,243 DEBUG [main] wire:72 -  >> "Content-Type: application/json[\r][\n]"
+2022-09-26 12:46:21,243 DEBUG [main] wire:72 -  >> "Content-Length: 69[\r][\n]"
+2022-09-26 12:46:21,244 DEBUG [main] wire:72 -  >> "Host: restapi.adequateshop.com[\r][\n]"
+2022-09-26 12:46:21,244 DEBUG [main] wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-09-26 12:46:21,244 DEBUG [main] wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)[\r][\n]"
+2022-09-26 12:46:21,245 DEBUG [main] wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-09-26 12:46:21,245 DEBUG [main] wire:72 -  >> "[\r][\n]"
+2022-09-26 12:46:21,245 DEBUG [main] headers:280 - >> POST /api/users HTTP/1.1
+2022-09-26 12:46:21,246 DEBUG [main] headers:283 - >> Authorization: Bearer f3f91ea7-36f4-4cac-a707-8bd7da810c6e
+2022-09-26 12:46:21,246 DEBUG [main] headers:283 - >> Accept: */*
+2022-09-26 12:46:21,246 DEBUG [main] headers:283 - >> Content-Type: application/json
+2022-09-26 12:46:21,246 DEBUG [main] headers:283 - >> Content-Length: 69
+2022-09-26 12:46:21,247 DEBUG [main] headers:283 - >> Host: restapi.adequateshop.com
+2022-09-26 12:46:21,247 DEBUG [main] headers:283 - >> Connection: Keep-Alive
+2022-09-26 12:46:21,248 DEBUG [main] headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)
+2022-09-26 12:46:21,248 DEBUG [main] headers:283 - >> Accept-Encoding: gzip,deflate
+2022-09-26 12:46:21,248 DEBUG [main] wire:86 -  >> "{"name":"Kanishka","email":"uqlruwjs4b7v@email.com","location":"USA"}"
+2022-09-26 12:46:21,454 DEBUG [main] wire:72 -  << "HTTP/1.1 201 Created[\r][\n]"
+2022-09-26 12:46:21,454 DEBUG [main] wire:72 -  << "Cache-Control: no-cache[\r][\n]"
+2022-09-26 12:46:21,455 DEBUG [main] wire:72 -  << "Pragma: no-cache[\r][\n]"
+2022-09-26 12:46:21,455 DEBUG [main] wire:72 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2022-09-26 12:46:21,455 DEBUG [main] wire:72 -  << "Expires: -1[\r][\n]"
+2022-09-26 12:46:21,455 DEBUG [main] wire:72 -  << "Location: http://restapi.adequateshop.com/api/users/163525[\r][\n]"
+2022-09-26 12:46:21,456 DEBUG [main] wire:72 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
+2022-09-26 12:46:21,456 DEBUG [main] wire:72 -  << "X-AspNet-Version: 4.0.30319[\r][\n]"
+2022-09-26 12:46:21,456 DEBUG [main] wire:72 -  << "X-Powered-By: ASP.NET[\r][\n]"
+2022-09-26 12:46:21,456 DEBUG [main] wire:72 -  << "Date: Mon, 26 Sep 2022 07:15:40 GMT[\r][\n]"
+2022-09-26 12:46:21,457 DEBUG [main] wire:72 -  << "Content-Length: 207[\r][\n]"
+2022-09-26 12:46:21,457 DEBUG [main] wire:72 -  << "[\r][\n]"
+2022-09-26 12:46:21,457 DEBUG [main] DefaultClientConnection:261 - Receiving response: HTTP/1.1 201 Created
+2022-09-26 12:46:21,457 DEBUG [main] headers:264 - << HTTP/1.1 201 Created
+2022-09-26 12:46:21,457 DEBUG [main] headers:267 - << Cache-Control: no-cache
+2022-09-26 12:46:21,458 DEBUG [main] headers:267 - << Pragma: no-cache
+2022-09-26 12:46:21,458 DEBUG [main] headers:267 - << Content-Type: application/json; charset=utf-8
+2022-09-26 12:46:21,458 DEBUG [main] headers:267 - << Expires: -1
+2022-09-26 12:46:21,458 DEBUG [main] headers:267 - << Location: http://restapi.adequateshop.com/api/users/163525
+2022-09-26 12:46:21,458 DEBUG [main] headers:267 - << Server: Microsoft-IIS/10.0
+2022-09-26 12:46:21,459 DEBUG [main] headers:267 - << X-AspNet-Version: 4.0.30319
+2022-09-26 12:46:21,459 DEBUG [main] headers:267 - << X-Powered-By: ASP.NET
+2022-09-26 12:46:21,459 DEBUG [main] headers:267 - << Date: Mon, 26 Sep 2022 07:15:40 GMT
+2022-09-26 12:46:21,459 DEBUG [main] headers:267 - << Content-Length: 207
+2022-09-26 12:46:21,459 DEBUG [main] DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2022-09-26 12:46:21,460 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
+2022-09-26 12:46:21,460 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-09-26 12:46:21,468 DEBUG [main] wire:86 -  << "{"id":163525,"name":"Kanishka","email":"uqlruwjs4b7v@email.com","profilepicture":"http://restapi.adequateshop.com/Media//Images/userimageicon.png","location":"USA","createdat":"2022-09-26T07:15:40.5267431Z"}"
+2022-09-26 12:46:21,468 DEBUG [main] BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@27f71195
+2022-09-26 12:46:21,469 DEBUG [main] BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2022-09-26 12:46:21,534 DEBUG [main] BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.adequateshop.com:80
+2022-09-26 12:46:21,535 DEBUG [main] DefaultClientConnectionOperator:176 - Connecting to restapi.adequateshop.com:80
+2022-09-26 12:46:21,619 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2022-09-26 12:46:21,620 DEBUG [main] RequestAuthCache:76 - Auth cache not set in the context
+2022-09-26 12:46:21,620 DEBUG [main] RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2022-09-26 12:46:21,620 DEBUG [main] DefaultHttpClient:684 - Attempt 1 to execute request
+2022-09-26 12:46:21,620 DEBUG [main] DefaultClientConnection:276 - Sending request: DELETE /api/users/163525 HTTP/1.1
+2022-09-26 12:46:21,621 DEBUG [main] wire:72 -  >> "DELETE /api/users/163525 HTTP/1.1[\r][\n]"
+2022-09-26 12:46:21,621 DEBUG [main] wire:72 -  >> "Authorization: Bearer f3f91ea7-36f4-4cac-a707-8bd7da810c6e[\r][\n]"
+2022-09-26 12:46:21,621 DEBUG [main] wire:72 -  >> "Accept: */*[\r][\n]"
+2022-09-26 12:46:21,621 DEBUG [main] wire:72 -  >> "Host: restapi.adequateshop.com[\r][\n]"
+2022-09-26 12:46:21,621 DEBUG [main] wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-09-26 12:46:21,621 DEBUG [main] wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)[\r][\n]"
+2022-09-26 12:46:21,621 DEBUG [main] wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-09-26 12:46:21,621 DEBUG [main] wire:72 -  >> "[\r][\n]"
+2022-09-26 12:46:21,621 DEBUG [main] headers:280 - >> DELETE /api/users/163525 HTTP/1.1
+2022-09-26 12:46:21,622 DEBUG [main] headers:283 - >> Authorization: Bearer f3f91ea7-36f4-4cac-a707-8bd7da810c6e
+2022-09-26 12:46:21,622 DEBUG [main] headers:283 - >> Accept: */*
+2022-09-26 12:46:21,622 DEBUG [main] headers:283 - >> Host: restapi.adequateshop.com
+2022-09-26 12:46:21,622 DEBUG [main] headers:283 - >> Connection: Keep-Alive
+2022-09-26 12:46:21,622 DEBUG [main] headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)
+2022-09-26 12:46:21,622 DEBUG [main] headers:283 - >> Accept-Encoding: gzip,deflate
+2022-09-26 12:46:21,749 DEBUG [main] wire:72 -  << "HTTP/1.1 405 Method Not Allowed[\r][\n]"
+2022-09-26 12:46:21,749 DEBUG [main] wire:72 -  << "Allow: GET, HEAD, OPTIONS, TRACE[\r][\n]"
+2022-09-26 12:46:21,749 DEBUG [main] wire:72 -  << "Content-Type: text/html[\r][\n]"
+2022-09-26 12:46:21,750 DEBUG [main] wire:72 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
+2022-09-26 12:46:21,750 DEBUG [main] wire:72 -  << "X-Powered-By: ASP.NET[\r][\n]"
+2022-09-26 12:46:21,750 DEBUG [main] wire:72 -  << "Date: Mon, 26 Sep 2022 07:15:40 GMT[\r][\n]"
+2022-09-26 12:46:21,750 DEBUG [main] wire:72 -  << "Content-Length: 1293[\r][\n]"
+2022-09-26 12:46:21,751 DEBUG [main] wire:72 -  << "[\r][\n]"
+2022-09-26 12:46:21,751 DEBUG [main] DefaultClientConnection:261 - Receiving response: HTTP/1.1 405 Method Not Allowed
+2022-09-26 12:46:21,751 DEBUG [main] headers:264 - << HTTP/1.1 405 Method Not Allowed
+2022-09-26 12:46:21,751 DEBUG [main] headers:267 - << Allow: GET, HEAD, OPTIONS, TRACE
+2022-09-26 12:46:21,751 DEBUG [main] headers:267 - << Content-Type: text/html
+2022-09-26 12:46:21,751 DEBUG [main] headers:267 - << Server: Microsoft-IIS/10.0
+2022-09-26 12:46:21,751 DEBUG [main] headers:267 - << X-Powered-By: ASP.NET
+2022-09-26 12:46:21,752 DEBUG [main] headers:267 - << Date: Mon, 26 Sep 2022 07:15:40 GMT
+2022-09-26 12:46:21,752 DEBUG [main] headers:267 - << Content-Length: 1293
+2022-09-26 12:46:21,752 DEBUG [main] DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2022-09-26 12:46:21,752 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: text/html
+2022-09-26 12:46:21,753 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-09-26 12:46:21,755 DEBUG [main] wire:72 -  << "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">[\r][\n]"
+2022-09-26 12:46:21,756 DEBUG [main] wire:72 -  << "<html xmlns="http://www.w3.org/1999/xhtml">[\r][\n]"
+2022-09-26 12:46:21,756 DEBUG [main] wire:72 -  << "<head>[\r][\n]"
+2022-09-26 12:46:21,756 DEBUG [main] wire:72 -  << "<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>[\r][\n]"
+2022-09-26 12:46:21,756 DEBUG [main] wire:72 -  << "<title>405 - HTTP verb used to access this page is not allowed.</title>[\r][\n]"
+2022-09-26 12:46:21,756 DEBUG [main] wire:72 -  << "<style type="text/css">[\r][\n]"
+2022-09-26 12:46:21,756 DEBUG [main] wire:72 -  << "<!--[\r][\n]"
+2022-09-26 12:46:21,756 DEBUG [main] wire:72 -  << "body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}[\r][\n]"
+2022-09-26 12:46:21,756 DEBUG [main] wire:72 -  << "fieldset{padding:0 15px 10px 15px;} [\r][\n]"
+2022-09-26 12:46:21,756 DEBUG [main] wire:72 -  << "h1{font-size:2.4em;margin:0;color:#FFF;}[\r][\n]"
+2022-09-26 12:46:21,757 DEBUG [main] wire:72 -  << "h2{font-size:1.7em;margin:0;color:#CC0000;} [\r][\n]"
+2022-09-26 12:46:21,757 DEBUG [main] wire:72 -  << "h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} [\r][\n]"
+2022-09-26 12:46:21,757 DEBUG [main] wire:72 -  << "#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;[\r][\n]"
+2022-09-26 12:46:21,757 DEBUG [main] wire:72 -  << "background-color:#555555;}[\r][\n]"
+2022-09-26 12:46:21,757 DEBUG [main] wire:72 -  << "#content{margin:0 0 0 2%;position:relative;}[\r][\n]"
+2022-09-26 12:46:21,757 DEBUG [main] wire:72 -  << ".content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}[\r][\n]"
+2022-09-26 12:46:21,757 DEBUG [main] wire:72 -  << "-->[\r][\n]"
+2022-09-26 12:46:21,757 DEBUG [main] wire:72 -  << "</style>[\r][\n]"
+2022-09-26 12:46:21,757 DEBUG [main] wire:72 -  << "</head>[\r][\n]"
+2022-09-26 12:46:21,758 DEBUG [main] wire:72 -  << "<body>[\r][\n]"
+2022-09-26 12:46:21,758 DEBUG [main] wire:72 -  << "<div id="header"><h1>Server Error</h1></div>[\r][\n]"
+2022-09-26 12:46:21,758 DEBUG [main] wire:72 -  << "<div id="content">[\r][\n]"
+2022-09-26 12:46:21,758 DEBUG [main] wire:72 -  << " <div class="content-container"><fieldset>[\r][\n]"
+2022-09-26 12:46:21,758 DEBUG [main] wire:72 -  << "  <h2>405 - HTTP verb used to access this page is not allowed.</h2>[\r][\n]"
+2022-09-26 12:46:21,758 DEBUG [main] wire:72 -  << "  <h3>The page you are looking for cannot be displayed because an invalid method (HTTP verb) was used to attempt access.</h3>[\r][\n]"
+2022-09-26 12:46:21,758 DEBUG [main] wire:72 -  << " </fieldset></div>[\r][\n]"
+2022-09-26 12:46:21,758 DEBUG [main] wire:72 -  << "</div>[\r][\n]"
+2022-09-26 12:46:21,758 DEBUG [main] wire:72 -  << "</body>[\r][\n]"
+2022-09-26 12:46:21,758 DEBUG [main] wire:72 -  << "</html>[\r][\n]"
+2022-09-26 12:46:21,759 DEBUG [main] BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6ce26986
+2022-09-26 12:46:21,759 DEBUG [main] BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2022-09-26 12:46:21,922 DEBUG [main] BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.adequateshop.com:80
+2022-09-26 12:46:21,922 DEBUG [main] DefaultClientConnectionOperator:176 - Connecting to restapi.adequateshop.com:80
+2022-09-26 12:46:22,020 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2022-09-26 12:46:22,021 DEBUG [main] RequestAuthCache:76 - Auth cache not set in the context
+2022-09-26 12:46:22,021 DEBUG [main] RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2022-09-26 12:46:22,021 DEBUG [main] RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2022-09-26 12:46:22,022 DEBUG [main] DefaultHttpClient:684 - Attempt 1 to execute request
+2022-09-26 12:46:22,022 DEBUG [main] DefaultClientConnection:276 - Sending request: POST /api/authaccount/login HTTP/1.1
+2022-09-26 12:46:22,022 DEBUG [main] wire:72 -  >> "POST /api/authaccount/login HTTP/1.1[\r][\n]"
+2022-09-26 12:46:22,022 DEBUG [main] wire:72 -  >> "Accept: */*[\r][\n]"
+2022-09-26 12:46:22,023 DEBUG [main] wire:72 -  >> "Content-Type: application/json[\r][\n]"
+2022-09-26 12:46:22,023 DEBUG [main] wire:72 -  >> "Content-Length: 49[\r][\n]"
+2022-09-26 12:46:22,023 DEBUG [main] wire:72 -  >> "Host: restapi.adequateshop.com[\r][\n]"
+2022-09-26 12:46:22,023 DEBUG [main] wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-09-26 12:46:22,024 DEBUG [main] wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)[\r][\n]"
+2022-09-26 12:46:22,024 DEBUG [main] wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-09-26 12:46:22,024 DEBUG [main] wire:72 -  >> "[\r][\n]"
+2022-09-26 12:46:22,024 DEBUG [main] headers:280 - >> POST /api/authaccount/login HTTP/1.1
+2022-09-26 12:46:22,024 DEBUG [main] headers:283 - >> Accept: */*
+2022-09-26 12:46:22,025 DEBUG [main] headers:283 - >> Content-Type: application/json
+2022-09-26 12:46:22,025 DEBUG [main] headers:283 - >> Content-Length: 49
+2022-09-26 12:46:22,025 DEBUG [main] headers:283 - >> Host: restapi.adequateshop.com
+2022-09-26 12:46:22,025 DEBUG [main] headers:283 - >> Connection: Keep-Alive
+2022-09-26 12:46:22,026 DEBUG [main] headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)
+2022-09-26 12:46:22,026 DEBUG [main] headers:283 - >> Accept-Encoding: gzip,deflate
+2022-09-26 12:46:22,026 DEBUG [main] wire:86 -  >> "{"email":"tester@test.com","password":"test@123"}"
+2022-09-26 12:46:22,211 DEBUG [main] wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2022-09-26 12:46:22,211 DEBUG [main] wire:72 -  << "Cache-Control: no-cache[\r][\n]"
+2022-09-26 12:46:22,212 DEBUG [main] wire:72 -  << "Pragma: no-cache[\r][\n]"
+2022-09-26 12:46:22,212 DEBUG [main] wire:72 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2022-09-26 12:46:22,212 DEBUG [main] wire:72 -  << "Expires: -1[\r][\n]"
+2022-09-26 12:46:22,212 DEBUG [main] wire:72 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
+2022-09-26 12:46:22,212 DEBUG [main] wire:72 -  << "X-AspNet-Version: 4.0.30319[\r][\n]"
+2022-09-26 12:46:22,212 DEBUG [main] wire:72 -  << "X-Powered-By: ASP.NET[\r][\n]"
+2022-09-26 12:46:22,212 DEBUG [main] wire:72 -  << "Date: Mon, 26 Sep 2022 07:15:41 GMT[\r][\n]"
+2022-09-26 12:46:22,213 DEBUG [main] wire:72 -  << "Content-Length: 140[\r][\n]"
+2022-09-26 12:46:22,213 DEBUG [main] wire:72 -  << "[\r][\n]"
+2022-09-26 12:46:22,213 DEBUG [main] DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2022-09-26 12:46:22,213 DEBUG [main] headers:264 - << HTTP/1.1 200 OK
+2022-09-26 12:46:22,213 DEBUG [main] headers:267 - << Cache-Control: no-cache
+2022-09-26 12:46:22,213 DEBUG [main] headers:267 - << Pragma: no-cache
+2022-09-26 12:46:22,213 DEBUG [main] headers:267 - << Content-Type: application/json; charset=utf-8
+2022-09-26 12:46:22,213 DEBUG [main] headers:267 - << Expires: -1
+2022-09-26 12:46:22,214 DEBUG [main] headers:267 - << Server: Microsoft-IIS/10.0
+2022-09-26 12:46:22,214 DEBUG [main] headers:267 - << X-AspNet-Version: 4.0.30319
+2022-09-26 12:46:22,215 DEBUG [main] headers:267 - << X-Powered-By: ASP.NET
+2022-09-26 12:46:22,215 DEBUG [main] headers:267 - << Date: Mon, 26 Sep 2022 07:15:41 GMT
+2022-09-26 12:46:22,215 DEBUG [main] headers:267 - << Content-Length: 140
+2022-09-26 12:46:22,215 DEBUG [main] DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2022-09-26 12:46:22,215 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
+2022-09-26 12:46:22,215 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-09-26 12:46:22,216 DEBUG [main] wire:86 -  << "{"code":0,"message":"success","data":{"Id":161540,"Name":"Tester","Email":"tester@test.com","Token":"01753f0e-69e4-4c0b-b4c0-b116c2f6ae09"}}"
+2022-09-26 12:46:22,217 DEBUG [main] BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4466cf5d
+2022-09-26 12:46:22,217 DEBUG [main] BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2022-09-26 12:46:22,261 DEBUG [main] BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.adequateshop.com:80
+2022-09-26 12:46:22,261 DEBUG [main] DefaultClientConnectionOperator:176 - Connecting to restapi.adequateshop.com:80
+2022-09-26 12:46:22,368 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2022-09-26 12:46:22,369 DEBUG [main] RequestAuthCache:76 - Auth cache not set in the context
+2022-09-26 12:46:22,369 DEBUG [main] RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2022-09-26 12:46:22,369 DEBUG [main] DefaultHttpClient:684 - Attempt 1 to execute request
+2022-09-26 12:46:22,370 DEBUG [main] DefaultClientConnection:276 - Sending request: GET /api/users?page=1 HTTP/1.1
+2022-09-26 12:46:22,370 DEBUG [main] wire:72 -  >> "GET /api/users?page=1 HTTP/1.1[\r][\n]"
+2022-09-26 12:46:22,370 DEBUG [main] wire:72 -  >> "Authorization: Bearer 01753f0e-69e4-4c0b-b4c0-b116c2f6ae09[\r][\n]"
+2022-09-26 12:46:22,370 DEBUG [main] wire:72 -  >> "Accept: */*[\r][\n]"
+2022-09-26 12:46:22,372 DEBUG [main] wire:72 -  >> "Host: restapi.adequateshop.com[\r][\n]"
+2022-09-26 12:46:22,372 DEBUG [main] wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-09-26 12:46:22,372 DEBUG [main] wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)[\r][\n]"
+2022-09-26 12:46:22,372 DEBUG [main] wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-09-26 12:46:22,373 DEBUG [main] wire:72 -  >> "[\r][\n]"
+2022-09-26 12:46:22,373 DEBUG [main] headers:280 - >> GET /api/users?page=1 HTTP/1.1
+2022-09-26 12:46:22,374 DEBUG [main] headers:283 - >> Authorization: Bearer 01753f0e-69e4-4c0b-b4c0-b116c2f6ae09
+2022-09-26 12:46:22,374 DEBUG [main] headers:283 - >> Accept: */*
+2022-09-26 12:46:22,375 DEBUG [main] headers:283 - >> Host: restapi.adequateshop.com
+2022-09-26 12:46:22,375 DEBUG [main] headers:283 - >> Connection: Keep-Alive
+2022-09-26 12:46:22,376 DEBUG [main] headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)
+2022-09-26 12:46:22,376 DEBUG [main] headers:283 - >> Accept-Encoding: gzip,deflate
+2022-09-26 12:46:22,539 DEBUG [main] wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2022-09-26 12:46:22,540 DEBUG [main] wire:72 -  << "Cache-Control: no-cache[\r][\n]"
+2022-09-26 12:46:22,541 DEBUG [main] wire:72 -  << "Pragma: no-cache[\r][\n]"
+2022-09-26 12:46:22,541 DEBUG [main] wire:72 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2022-09-26 12:46:22,541 DEBUG [main] wire:72 -  << "Expires: -1[\r][\n]"
+2022-09-26 12:46:22,542 DEBUG [main] wire:72 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
+2022-09-26 12:46:22,542 DEBUG [main] wire:72 -  << "X-AspNet-Version: 4.0.30319[\r][\n]"
+2022-09-26 12:46:22,542 DEBUG [main] wire:72 -  << "X-Powered-By: ASP.NET[\r][\n]"
+2022-09-26 12:46:22,543 DEBUG [main] wire:72 -  << "Date: Mon, 26 Sep 2022 07:15:41 GMT[\r][\n]"
+2022-09-26 12:46:22,543 DEBUG [main] wire:72 -  << "Content-Length: 1984[\r][\n]"
+2022-09-26 12:46:22,543 DEBUG [main] wire:72 -  << "[\r][\n]"
+2022-09-26 12:46:22,543 DEBUG [main] DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2022-09-26 12:46:22,543 DEBUG [main] headers:264 - << HTTP/1.1 200 OK
+2022-09-26 12:46:22,543 DEBUG [main] headers:267 - << Cache-Control: no-cache
+2022-09-26 12:46:22,544 DEBUG [main] headers:267 - << Pragma: no-cache
+2022-09-26 12:46:22,544 DEBUG [main] headers:267 - << Content-Type: application/json; charset=utf-8
+2022-09-26 12:46:22,544 DEBUG [main] headers:267 - << Expires: -1
+2022-09-26 12:46:22,544 DEBUG [main] headers:267 - << Server: Microsoft-IIS/10.0
+2022-09-26 12:46:22,544 DEBUG [main] headers:267 - << X-AspNet-Version: 4.0.30319
+2022-09-26 12:46:22,545 DEBUG [main] headers:267 - << X-Powered-By: ASP.NET
+2022-09-26 12:46:22,545 DEBUG [main] headers:267 - << Date: Mon, 26 Sep 2022 07:15:41 GMT
+2022-09-26 12:46:22,545 DEBUG [main] headers:267 - << Content-Length: 1984
+2022-09-26 12:46:22,545 DEBUG [main] DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2022-09-26 12:46:22,545 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
+2022-09-26 12:46:22,545 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-09-26 12:46:22,546 DEBUG [main] wire:86 -  << "{"page":1,"per_page":10,"totalrecord":8692,"total_pages":870,"data":[{"id":11133,"name":"Developer","email":"Developer12@gmail.com","profilepicture":"http://restapi.adequateshop.com/Media//Images/userimageicon.png","location":"USA","createdat":"0001-01-01T00:00:00"},{"id":11134,"name":"AS","email":"qweqw@mail.ru","profilepicture":"http://restapi.adequateshop.com/Media//Images/userimageicon.png","location":"USA","createdat":"0001-01-01T00:00:00"},{"id":11135,"name":"vano","email":"van.19v@mail.ru","profilepicture":"http://restapi.adequateshop.com/Media//Images/userimageicon.png","location":"USA","createdat":"0001-01-01T00:00:00"},{"id":11136,"name":"Developer123","email":"Developer523@gmail.com","profilepicture":"http://restapi.adequateshop.com/Media//Images/userimageicon.png","location":"USA","createdat":"0001-01-01T00:00:00"},{"id":11137,"name":"Ashor","email":"ashot.vardanyan.2000@gmail.com","profilepicture":"http://restapi.adequateshop.com/Media//Images/userimageicon.png","location":"USA","createdat":"0001-01-01T00:00:00"},{"id":11138,"name":"1234","email":"ghag@mail.ru","profilepicture":"http://restapi.adequateshop.com/Media//Images/userimageicon.png","location":"USA","createdat":"0001-01-01T00:00:00"},{"id":11139,"name":"asdasd","email":"asdasd@dasda.asd","profilepicture":"http://restapi.adequateshop.com/Media//Images/userimageicon.png","location":"USA","createdat":"0001-01-01T00:00:00"},{"id":11140,"name":"da","email":"auriu@gmail.com","profilepicture":"http://restapi.adequateshop.com/Media//Images/userimageicon.png","location":"USA","createdat":"0001-01-01T00:00:00"},{"id":11142,"name":"asdasd","email":"qwwerrwerweeqw@mail.ru","profilepicture":"http://restapi.adequateshop.com/Media//Images/userimageicon.png","location":"USA","createdat":"0001-01-01T00:00:00"},{"id":11143,"name":"karen","email":"karen@mail.ru","profilepicture":"http://restapi.adequateshop.com/Media//Images/userimageicon.png","location":"USA","createdat":"0001-01-01T00:00:00"}]}"
+2022-09-26 12:46:22,547 DEBUG [main] BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4f213a2
+2022-09-26 12:46:22,547 DEBUG [main] BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2022-09-26 12:46:23,004 DEBUG [Finalizer] DefaultClientConnection:182 - Connection 0.0.0.0:50921<->122.176.47.222:80 closed
+2022-09-26 12:46:23,008 DEBUG [Finalizer] DefaultClientConnection:182 - Connection 0.0.0.0:50922<->122.176.47.222:80 closed
+2022-09-26 12:46:23,108 DEBUG [main] BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.adequateshop.com:80
+2022-09-26 12:46:23,108 DEBUG [main] DefaultClientConnectionOperator:176 - Connecting to restapi.adequateshop.com:80
+2022-09-26 12:46:23,284 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2022-09-26 12:46:23,285 DEBUG [main] RequestAuthCache:76 - Auth cache not set in the context
+2022-09-26 12:46:23,285 DEBUG [main] RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2022-09-26 12:46:23,285 DEBUG [main] RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2022-09-26 12:46:23,285 DEBUG [main] DefaultHttpClient:684 - Attempt 1 to execute request
+2022-09-26 12:46:23,285 DEBUG [main] DefaultClientConnection:276 - Sending request: POST /api/authaccount/login HTTP/1.1
+2022-09-26 12:46:23,286 DEBUG [main] wire:72 -  >> "POST /api/authaccount/login HTTP/1.1[\r][\n]"
+2022-09-26 12:46:23,286 DEBUG [main] wire:72 -  >> "Accept: */*[\r][\n]"
+2022-09-26 12:46:23,286 DEBUG [main] wire:72 -  >> "Content-Type: application/json[\r][\n]"
+2022-09-26 12:46:23,286 DEBUG [main] wire:72 -  >> "Content-Length: 49[\r][\n]"
+2022-09-26 12:46:23,286 DEBUG [main] wire:72 -  >> "Host: restapi.adequateshop.com[\r][\n]"
+2022-09-26 12:46:23,286 DEBUG [main] wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-09-26 12:46:23,286 DEBUG [main] wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)[\r][\n]"
+2022-09-26 12:46:23,286 DEBUG [main] wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-09-26 12:46:23,286 DEBUG [main] wire:72 -  >> "[\r][\n]"
+2022-09-26 12:46:23,286 DEBUG [main] headers:280 - >> POST /api/authaccount/login HTTP/1.1
+2022-09-26 12:46:23,286 DEBUG [main] headers:283 - >> Accept: */*
+2022-09-26 12:46:23,287 DEBUG [main] headers:283 - >> Content-Type: application/json
+2022-09-26 12:46:23,287 DEBUG [main] headers:283 - >> Content-Length: 49
+2022-09-26 12:46:23,287 DEBUG [main] headers:283 - >> Host: restapi.adequateshop.com
+2022-09-26 12:46:23,287 DEBUG [main] headers:283 - >> Connection: Keep-Alive
+2022-09-26 12:46:23,287 DEBUG [main] headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)
+2022-09-26 12:46:23,287 DEBUG [main] headers:283 - >> Accept-Encoding: gzip,deflate
+2022-09-26 12:46:23,287 DEBUG [main] wire:86 -  >> "{"email":"tester@test.com","password":"test@123"}"
+2022-09-26 12:46:23,449 DEBUG [main] wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2022-09-26 12:46:23,451 DEBUG [main] wire:72 -  << "Cache-Control: no-cache[\r][\n]"
+2022-09-26 12:46:23,451 DEBUG [main] wire:72 -  << "Pragma: no-cache[\r][\n]"
+2022-09-26 12:46:23,452 DEBUG [main] wire:72 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2022-09-26 12:46:23,452 DEBUG [main] wire:72 -  << "Expires: -1[\r][\n]"
+2022-09-26 12:46:23,452 DEBUG [main] wire:72 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
+2022-09-26 12:46:23,452 DEBUG [main] wire:72 -  << "X-AspNet-Version: 4.0.30319[\r][\n]"
+2022-09-26 12:46:23,453 DEBUG [main] wire:72 -  << "X-Powered-By: ASP.NET[\r][\n]"
+2022-09-26 12:46:23,453 DEBUG [main] wire:72 -  << "Date: Mon, 26 Sep 2022 07:15:42 GMT[\r][\n]"
+2022-09-26 12:46:23,453 DEBUG [main] wire:72 -  << "Content-Length: 140[\r][\n]"
+2022-09-26 12:46:23,453 DEBUG [main] wire:72 -  << "[\r][\n]"
+2022-09-26 12:46:23,453 DEBUG [main] DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2022-09-26 12:46:23,453 DEBUG [main] headers:264 - << HTTP/1.1 200 OK
+2022-09-26 12:46:23,453 DEBUG [main] headers:267 - << Cache-Control: no-cache
+2022-09-26 12:46:23,453 DEBUG [main] headers:267 - << Pragma: no-cache
+2022-09-26 12:46:23,453 DEBUG [main] headers:267 - << Content-Type: application/json; charset=utf-8
+2022-09-26 12:46:23,453 DEBUG [main] headers:267 - << Expires: -1
+2022-09-26 12:46:23,455 DEBUG [main] headers:267 - << Server: Microsoft-IIS/10.0
+2022-09-26 12:46:23,455 DEBUG [main] headers:267 - << X-AspNet-Version: 4.0.30319
+2022-09-26 12:46:23,455 DEBUG [main] headers:267 - << X-Powered-By: ASP.NET
+2022-09-26 12:46:23,455 DEBUG [main] headers:267 - << Date: Mon, 26 Sep 2022 07:15:42 GMT
+2022-09-26 12:46:23,455 DEBUG [main] headers:267 - << Content-Length: 140
+2022-09-26 12:46:23,455 DEBUG [main] DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2022-09-26 12:46:23,456 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
+2022-09-26 12:46:23,457 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-09-26 12:46:23,457 DEBUG [main] wire:86 -  << "{"code":0,"message":"success","data":{"Id":161540,"Name":"Tester","Email":"tester@test.com","Token":"5c8f1597-3848-4f63-baeb-e62a762711a0"}}"
+2022-09-26 12:46:23,458 DEBUG [main] BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4af70b83
+2022-09-26 12:46:23,458 DEBUG [main] BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2022-09-26 12:46:23,498 DEBUG [main] BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.adequateshop.com:80
+2022-09-26 12:46:23,498 DEBUG [main] DefaultClientConnectionOperator:176 - Connecting to restapi.adequateshop.com:80
+2022-09-26 12:46:23,599 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2022-09-26 12:46:23,599 DEBUG [main] RequestAuthCache:76 - Auth cache not set in the context
+2022-09-26 12:46:23,600 DEBUG [main] RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2022-09-26 12:46:23,600 DEBUG [main] DefaultHttpClient:684 - Attempt 1 to execute request
+2022-09-26 12:46:23,601 DEBUG [main] DefaultClientConnection:276 - Sending request: POST /api/users HTTP/1.1
+2022-09-26 12:46:23,601 DEBUG [main] wire:72 -  >> "POST /api/users HTTP/1.1[\r][\n]"
+2022-09-26 12:46:23,601 DEBUG [main] wire:72 -  >> "Authorization: Bearer 5c8f1597-3848-4f63-baeb-e62a762711a0[\r][\n]"
+2022-09-26 12:46:23,601 DEBUG [main] wire:72 -  >> "Accept: */*[\r][\n]"
+2022-09-26 12:46:23,602 DEBUG [main] wire:72 -  >> "Content-Type: application/json[\r][\n]"
+2022-09-26 12:46:23,602 DEBUG [main] wire:72 -  >> "Content-Length: 69[\r][\n]"
+2022-09-26 12:46:23,602 DEBUG [main] wire:72 -  >> "Host: restapi.adequateshop.com[\r][\n]"
+2022-09-26 12:46:23,602 DEBUG [main] wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-09-26 12:46:23,603 DEBUG [main] wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)[\r][\n]"
+2022-09-26 12:46:23,603 DEBUG [main] wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-09-26 12:46:23,603 DEBUG [main] wire:72 -  >> "[\r][\n]"
+2022-09-26 12:46:23,603 DEBUG [main] headers:280 - >> POST /api/users HTTP/1.1
+2022-09-26 12:46:23,604 DEBUG [main] headers:283 - >> Authorization: Bearer 5c8f1597-3848-4f63-baeb-e62a762711a0
+2022-09-26 12:46:23,604 DEBUG [main] headers:283 - >> Accept: */*
+2022-09-26 12:46:23,604 DEBUG [main] headers:283 - >> Content-Type: application/json
+2022-09-26 12:46:23,604 DEBUG [main] headers:283 - >> Content-Length: 69
+2022-09-26 12:46:23,604 DEBUG [main] headers:283 - >> Host: restapi.adequateshop.com
+2022-09-26 12:46:23,604 DEBUG [main] headers:283 - >> Connection: Keep-Alive
+2022-09-26 12:46:23,605 DEBUG [main] headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)
+2022-09-26 12:46:23,605 DEBUG [main] headers:283 - >> Accept-Encoding: gzip,deflate
+2022-09-26 12:46:23,605 DEBUG [main] wire:86 -  >> "{"name":"Jagadish","email":"vzxgrrnu0i5e@email.com","location":"USA"}"
+2022-09-26 12:46:23,817 DEBUG [main] wire:72 -  << "HTTP/1.1 201 Created[\r][\n]"
+2022-09-26 12:46:23,818 DEBUG [main] wire:72 -  << "Cache-Control: no-cache[\r][\n]"
+2022-09-26 12:46:23,818 DEBUG [main] wire:72 -  << "Pragma: no-cache[\r][\n]"
+2022-09-26 12:46:23,818 DEBUG [main] wire:72 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2022-09-26 12:46:23,818 DEBUG [main] wire:72 -  << "Expires: -1[\r][\n]"
+2022-09-26 12:46:23,818 DEBUG [main] wire:72 -  << "Location: http://restapi.adequateshop.com/api/users/163526[\r][\n]"
+2022-09-26 12:46:23,819 DEBUG [main] wire:72 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
+2022-09-26 12:46:23,819 DEBUG [main] wire:72 -  << "X-AspNet-Version: 4.0.30319[\r][\n]"
+2022-09-26 12:46:23,819 DEBUG [main] wire:72 -  << "X-Powered-By: ASP.NET[\r][\n]"
+2022-09-26 12:46:23,819 DEBUG [main] wire:72 -  << "Date: Mon, 26 Sep 2022 07:15:42 GMT[\r][\n]"
+2022-09-26 12:46:23,820 DEBUG [main] wire:72 -  << "Content-Length: 207[\r][\n]"
+2022-09-26 12:46:23,820 DEBUG [main] wire:72 -  << "[\r][\n]"
+2022-09-26 12:46:23,820 DEBUG [main] DefaultClientConnection:261 - Receiving response: HTTP/1.1 201 Created
+2022-09-26 12:46:23,821 DEBUG [main] headers:264 - << HTTP/1.1 201 Created
+2022-09-26 12:46:23,822 DEBUG [main] headers:267 - << Cache-Control: no-cache
+2022-09-26 12:46:23,822 DEBUG [main] headers:267 - << Pragma: no-cache
+2022-09-26 12:46:23,822 DEBUG [main] headers:267 - << Content-Type: application/json; charset=utf-8
+2022-09-26 12:46:23,823 DEBUG [main] headers:267 - << Expires: -1
+2022-09-26 12:46:23,823 DEBUG [main] headers:267 - << Location: http://restapi.adequateshop.com/api/users/163526
+2022-09-26 12:46:23,824 DEBUG [main] headers:267 - << Server: Microsoft-IIS/10.0
+2022-09-26 12:46:23,824 DEBUG [main] headers:267 - << X-AspNet-Version: 4.0.30319
+2022-09-26 12:46:23,824 DEBUG [main] headers:267 - << X-Powered-By: ASP.NET
+2022-09-26 12:46:23,825 DEBUG [main] headers:267 - << Date: Mon, 26 Sep 2022 07:15:42 GMT
+2022-09-26 12:46:23,825 DEBUG [main] headers:267 - << Content-Length: 207
+2022-09-26 12:46:23,826 DEBUG [main] DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2022-09-26 12:46:23,826 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
+2022-09-26 12:46:23,827 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-09-26 12:46:23,828 DEBUG [main] wire:86 -  << "{"id":163526,"name":"Jagadish","email":"vzxgrrnu0i5e@email.com","profilepicture":"http://restapi.adequateshop.com/Media//Images/userimageicon.png","location":"USA","createdat":"2022-09-26T07:15:42.9015582Z"}"
+2022-09-26 12:46:23,829 DEBUG [main] BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@288409f0
+2022-09-26 12:46:23,829 DEBUG [main] BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2022-09-26 12:46:23,854 DEBUG [main] BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.adequateshop.com:80
+2022-09-26 12:46:23,855 DEBUG [main] DefaultClientConnectionOperator:176 - Connecting to restapi.adequateshop.com:80
+2022-09-26 12:46:24,002 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2022-09-26 12:46:24,002 DEBUG [main] RequestAuthCache:76 - Auth cache not set in the context
+2022-09-26 12:46:24,003 DEBUG [main] RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2022-09-26 12:46:24,003 DEBUG [main] RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2022-09-26 12:46:24,003 DEBUG [main] DefaultHttpClient:684 - Attempt 1 to execute request
+2022-09-26 12:46:24,003 DEBUG [main] DefaultClientConnection:276 - Sending request: POST /api/authaccount/login HTTP/1.1
+2022-09-26 12:46:24,003 DEBUG [main] wire:72 -  >> "POST /api/authaccount/login HTTP/1.1[\r][\n]"
+2022-09-26 12:46:24,004 DEBUG [main] wire:72 -  >> "Accept: */*[\r][\n]"
+2022-09-26 12:46:24,004 DEBUG [main] wire:72 -  >> "Content-Type: application/json[\r][\n]"
+2022-09-26 12:46:24,004 DEBUG [main] wire:72 -  >> "Content-Length: 49[\r][\n]"
+2022-09-26 12:46:24,004 DEBUG [main] wire:72 -  >> "Host: restapi.adequateshop.com[\r][\n]"
+2022-09-26 12:46:24,004 DEBUG [main] wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-09-26 12:46:24,005 DEBUG [main] wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)[\r][\n]"
+2022-09-26 12:46:24,005 DEBUG [main] wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-09-26 12:46:24,005 DEBUG [main] wire:72 -  >> "[\r][\n]"
+2022-09-26 12:46:24,006 DEBUG [main] headers:280 - >> POST /api/authaccount/login HTTP/1.1
+2022-09-26 12:46:24,006 DEBUG [main] headers:283 - >> Accept: */*
+2022-09-26 12:46:24,006 DEBUG [main] headers:283 - >> Content-Type: application/json
+2022-09-26 12:46:24,006 DEBUG [main] headers:283 - >> Content-Length: 49
+2022-09-26 12:46:24,006 DEBUG [main] headers:283 - >> Host: restapi.adequateshop.com
+2022-09-26 12:46:24,006 DEBUG [main] headers:283 - >> Connection: Keep-Alive
+2022-09-26 12:46:24,007 DEBUG [main] headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)
+2022-09-26 12:46:24,007 DEBUG [main] headers:283 - >> Accept-Encoding: gzip,deflate
+2022-09-26 12:46:24,007 DEBUG [main] wire:86 -  >> "{"email":"tester@test.com","password":"test@123"}"
+2022-09-26 12:46:24,167 DEBUG [main] wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2022-09-26 12:46:24,168 DEBUG [main] wire:72 -  << "Cache-Control: no-cache[\r][\n]"
+2022-09-26 12:46:24,168 DEBUG [main] wire:72 -  << "Pragma: no-cache[\r][\n]"
+2022-09-26 12:46:24,168 DEBUG [main] wire:72 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2022-09-26 12:46:24,168 DEBUG [main] wire:72 -  << "Expires: -1[\r][\n]"
+2022-09-26 12:46:24,168 DEBUG [main] wire:72 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
+2022-09-26 12:46:24,169 DEBUG [main] wire:72 -  << "X-AspNet-Version: 4.0.30319[\r][\n]"
+2022-09-26 12:46:24,169 DEBUG [main] wire:72 -  << "X-Powered-By: ASP.NET[\r][\n]"
+2022-09-26 12:46:24,169 DEBUG [main] wire:72 -  << "Date: Mon, 26 Sep 2022 07:15:42 GMT[\r][\n]"
+2022-09-26 12:46:24,169 DEBUG [main] wire:72 -  << "Content-Length: 140[\r][\n]"
+2022-09-26 12:46:24,169 DEBUG [main] wire:72 -  << "[\r][\n]"
+2022-09-26 12:46:24,169 DEBUG [main] DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2022-09-26 12:46:24,169 DEBUG [main] headers:264 - << HTTP/1.1 200 OK
+2022-09-26 12:46:24,170 DEBUG [main] headers:267 - << Cache-Control: no-cache
+2022-09-26 12:46:24,170 DEBUG [main] headers:267 - << Pragma: no-cache
+2022-09-26 12:46:24,170 DEBUG [main] headers:267 - << Content-Type: application/json; charset=utf-8
+2022-09-26 12:46:24,170 DEBUG [main] headers:267 - << Expires: -1
+2022-09-26 12:46:24,170 DEBUG [main] headers:267 - << Server: Microsoft-IIS/10.0
+2022-09-26 12:46:24,170 DEBUG [main] headers:267 - << X-AspNet-Version: 4.0.30319
+2022-09-26 12:46:24,170 DEBUG [main] headers:267 - << X-Powered-By: ASP.NET
+2022-09-26 12:46:24,170 DEBUG [main] headers:267 - << Date: Mon, 26 Sep 2022 07:15:42 GMT
+2022-09-26 12:46:24,170 DEBUG [main] headers:267 - << Content-Length: 140
+2022-09-26 12:46:24,170 DEBUG [main] DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2022-09-26 12:46:24,171 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
+2022-09-26 12:46:24,171 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-09-26 12:46:24,172 DEBUG [main] wire:86 -  << "{"code":0,"message":"success","data":{"Id":161540,"Name":"Tester","Email":"tester@test.com","Token":"89c3486f-c77d-4b10-8951-8631a29ab5f3"}}"
+2022-09-26 12:46:24,173 DEBUG [main] BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5b0e9e0c
+2022-09-26 12:46:24,173 DEBUG [main] BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2022-09-26 12:46:24,206 DEBUG [main] BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.adequateshop.com:80
+2022-09-26 12:46:24,206 DEBUG [main] DefaultClientConnectionOperator:176 - Connecting to restapi.adequateshop.com:80
+2022-09-26 12:46:24,303 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2022-09-26 12:46:24,303 DEBUG [main] RequestAuthCache:76 - Auth cache not set in the context
+2022-09-26 12:46:24,303 DEBUG [main] RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2022-09-26 12:46:24,303 DEBUG [main] DefaultHttpClient:684 - Attempt 1 to execute request
+2022-09-26 12:46:24,303 DEBUG [main] DefaultClientConnection:276 - Sending request: POST /api/users HTTP/1.1
+2022-09-26 12:46:24,303 DEBUG [main] wire:72 -  >> "POST /api/users HTTP/1.1[\r][\n]"
+2022-09-26 12:46:24,303 DEBUG [main] wire:72 -  >> "Authorization: Bearer 89c3486f-c77d-4b10-8951-8631a29ab5f3[\r][\n]"
+2022-09-26 12:46:24,304 DEBUG [main] wire:72 -  >> "Accept: */*[\r][\n]"
+2022-09-26 12:46:24,304 DEBUG [main] wire:72 -  >> "Content-Type: application/json[\r][\n]"
+2022-09-26 12:46:24,304 DEBUG [main] wire:72 -  >> "Content-Length: 68[\r][\n]"
+2022-09-26 12:46:24,304 DEBUG [main] wire:72 -  >> "Host: restapi.adequateshop.com[\r][\n]"
+2022-09-26 12:46:24,304 DEBUG [main] wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-09-26 12:46:24,304 DEBUG [main] wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)[\r][\n]"
+2022-09-26 12:46:24,304 DEBUG [main] wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-09-26 12:46:24,304 DEBUG [main] wire:72 -  >> "[\r][\n]"
+2022-09-26 12:46:24,304 DEBUG [main] headers:280 - >> POST /api/users HTTP/1.1
+2022-09-26 12:46:24,304 DEBUG [main] headers:283 - >> Authorization: Bearer 89c3486f-c77d-4b10-8951-8631a29ab5f3
+2022-09-26 12:46:24,304 DEBUG [main] headers:283 - >> Accept: */*
+2022-09-26 12:46:24,304 DEBUG [main] headers:283 - >> Content-Type: application/json
+2022-09-26 12:46:24,305 DEBUG [main] headers:283 - >> Content-Length: 68
+2022-09-26 12:46:24,305 DEBUG [main] headers:283 - >> Host: restapi.adequateshop.com
+2022-09-26 12:46:24,305 DEBUG [main] headers:283 - >> Connection: Keep-Alive
+2022-09-26 12:46:24,305 DEBUG [main] headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)
+2022-09-26 12:46:24,305 DEBUG [main] headers:283 - >> Accept-Encoding: gzip,deflate
+2022-09-26 12:46:24,305 DEBUG [main] wire:86 -  >> "{"name":"Nirbhay","email":"gqavhtpy9u6q@email.com","location":"USA"}"
+2022-09-26 12:46:24,505 DEBUG [main] wire:72 -  << "HTTP/1.1 201 Created[\r][\n]"
+2022-09-26 12:46:24,505 DEBUG [main] wire:72 -  << "Cache-Control: no-cache[\r][\n]"
+2022-09-26 12:46:24,505 DEBUG [main] wire:72 -  << "Pragma: no-cache[\r][\n]"
+2022-09-26 12:46:24,506 DEBUG [main] wire:72 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2022-09-26 12:46:24,506 DEBUG [main] wire:72 -  << "Expires: -1[\r][\n]"
+2022-09-26 12:46:24,506 DEBUG [main] wire:72 -  << "Location: http://restapi.adequateshop.com/api/users/163527[\r][\n]"
+2022-09-26 12:46:24,506 DEBUG [main] wire:72 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
+2022-09-26 12:46:24,506 DEBUG [main] wire:72 -  << "X-AspNet-Version: 4.0.30319[\r][\n]"
+2022-09-26 12:46:24,506 DEBUG [main] wire:72 -  << "X-Powered-By: ASP.NET[\r][\n]"
+2022-09-26 12:46:24,506 DEBUG [main] wire:72 -  << "Date: Mon, 26 Sep 2022 07:15:43 GMT[\r][\n]"
+2022-09-26 12:46:24,506 DEBUG [main] wire:72 -  << "Content-Length: 206[\r][\n]"
+2022-09-26 12:46:24,507 DEBUG [main] wire:72 -  << "[\r][\n]"
+2022-09-26 12:46:24,507 DEBUG [main] DefaultClientConnection:261 - Receiving response: HTTP/1.1 201 Created
+2022-09-26 12:46:24,507 DEBUG [main] headers:264 - << HTTP/1.1 201 Created
+2022-09-26 12:46:24,507 DEBUG [main] headers:267 - << Cache-Control: no-cache
+2022-09-26 12:46:24,507 DEBUG [main] headers:267 - << Pragma: no-cache
+2022-09-26 12:46:24,507 DEBUG [main] headers:267 - << Content-Type: application/json; charset=utf-8
+2022-09-26 12:46:24,507 DEBUG [main] headers:267 - << Expires: -1
+2022-09-26 12:46:24,507 DEBUG [main] headers:267 - << Location: http://restapi.adequateshop.com/api/users/163527
+2022-09-26 12:46:24,507 DEBUG [main] headers:267 - << Server: Microsoft-IIS/10.0
+2022-09-26 12:46:24,508 DEBUG [main] headers:267 - << X-AspNet-Version: 4.0.30319
+2022-09-26 12:46:24,508 DEBUG [main] headers:267 - << X-Powered-By: ASP.NET
+2022-09-26 12:46:24,508 DEBUG [main] headers:267 - << Date: Mon, 26 Sep 2022 07:15:43 GMT
+2022-09-26 12:46:24,508 DEBUG [main] headers:267 - << Content-Length: 206
+2022-09-26 12:46:24,508 DEBUG [main] DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2022-09-26 12:46:24,508 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
+2022-09-26 12:46:24,508 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-09-26 12:46:24,509 DEBUG [main] wire:86 -  << "{"id":163527,"name":"Nirbhay","email":"gqavhtpy9u6q@email.com","profilepicture":"http://restapi.adequateshop.com/Media//Images/userimageicon.png","location":"USA","createdat":"2022-09-26T07:15:43.5890373Z"}"
+2022-09-26 12:46:24,509 DEBUG [main] BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@546083d6
+2022-09-26 12:46:24,509 DEBUG [main] BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2022-09-26 12:46:24,533 DEBUG [main] BasicClientConnectionManager:164 - Get connection for route {}->http://restapi.adequateshop.com:80
+2022-09-26 12:46:24,534 DEBUG [main] DefaultClientConnectionOperator:176 - Connecting to restapi.adequateshop.com:80
+2022-09-26 12:46:24,718 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2022-09-26 12:46:24,719 DEBUG [main] RequestAuthCache:76 - Auth cache not set in the context
+2022-09-26 12:46:24,719 DEBUG [main] RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2022-09-26 12:46:24,720 DEBUG [main] DefaultHttpClient:684 - Attempt 1 to execute request
+2022-09-26 12:46:24,720 DEBUG [main] DefaultClientConnection:276 - Sending request: PUT /api/users/163527 HTTP/1.1
+2022-09-26 12:46:24,720 DEBUG [main] wire:72 -  >> "PUT /api/users/163527 HTTP/1.1[\r][\n]"
+2022-09-26 12:46:24,720 DEBUG [main] wire:72 -  >> "Authorization: Bearer 89c3486f-c77d-4b10-8951-8631a29ab5f3[\r][\n]"
+2022-09-26 12:46:24,720 DEBUG [main] wire:72 -  >> "Accept: */*[\r][\n]"
+2022-09-26 12:46:24,720 DEBUG [main] wire:72 -  >> "Content-Type: application/json[\r][\n]"
+2022-09-26 12:46:24,720 DEBUG [main] wire:72 -  >> "Content-Length: 96[\r][\n]"
+2022-09-26 12:46:24,720 DEBUG [main] wire:72 -  >> "Host: restapi.adequateshop.com[\r][\n]"
+2022-09-26 12:46:24,721 DEBUG [main] wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-09-26 12:46:24,721 DEBUG [main] wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)[\r][\n]"
+2022-09-26 12:46:24,721 DEBUG [main] wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-09-26 12:46:24,721 DEBUG [main] wire:72 -  >> "[\r][\n]"
+2022-09-26 12:46:24,721 DEBUG [main] headers:280 - >> PUT /api/users/163527 HTTP/1.1
+2022-09-26 12:46:24,721 DEBUG [main] headers:283 - >> Authorization: Bearer 89c3486f-c77d-4b10-8951-8631a29ab5f3
+2022-09-26 12:46:24,721 DEBUG [main] headers:283 - >> Accept: */*
+2022-09-26 12:46:24,721 DEBUG [main] headers:283 - >> Content-Type: application/json
+2022-09-26 12:46:24,721 DEBUG [main] headers:283 - >> Content-Length: 96
+2022-09-26 12:46:24,721 DEBUG [main] headers:283 - >> Host: restapi.adequateshop.com
+2022-09-26 12:46:24,721 DEBUG [main] headers:283 - >> Connection: Keep-Alive
+2022-09-26 12:46:24,721 DEBUG [main] headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/11.0.15.1)
+2022-09-26 12:46:24,721 DEBUG [main] headers:283 - >> Accept-Encoding: gzip,deflate
+2022-09-26 12:46:24,722 DEBUG [main] wire:86 -  >> "{"id": 163527,"name":"traveler change name","email":"gqavhtpy9u6q@email.com","location":"India"}"
+2022-09-26 12:46:24,951 DEBUG [main] wire:72 -  << "HTTP/1.1 405 Method Not Allowed[\r][\n]"
+2022-09-26 12:46:24,951 DEBUG [main] wire:72 -  << "Allow: GET, HEAD, OPTIONS, TRACE[\r][\n]"
+2022-09-26 12:46:24,951 DEBUG [main] wire:72 -  << "Content-Type: text/html[\r][\n]"
+2022-09-26 12:46:24,952 DEBUG [main] wire:72 -  << "Server: Microsoft-IIS/10.0[\r][\n]"
+2022-09-26 12:46:24,952 DEBUG [main] wire:72 -  << "X-Powered-By: ASP.NET[\r][\n]"
+2022-09-26 12:46:24,952 DEBUG [main] wire:72 -  << "Date: Mon, 26 Sep 2022 07:15:43 GMT[\r][\n]"
+2022-09-26 12:46:24,952 DEBUG [main] wire:72 -  << "Content-Length: 1293[\r][\n]"
+2022-09-26 12:46:24,952 DEBUG [main] wire:72 -  << "[\r][\n]"
+2022-09-26 12:46:24,952 DEBUG [main] DefaultClientConnection:261 - Receiving response: HTTP/1.1 405 Method Not Allowed
+2022-09-26 12:46:24,953 DEBUG [main] headers:264 - << HTTP/1.1 405 Method Not Allowed
+2022-09-26 12:46:24,953 DEBUG [main] headers:267 - << Allow: GET, HEAD, OPTIONS, TRACE
+2022-09-26 12:46:24,953 DEBUG [main] headers:267 - << Content-Type: text/html
+2022-09-26 12:46:24,953 DEBUG [main] headers:267 - << Server: Microsoft-IIS/10.0
+2022-09-26 12:46:24,953 DEBUG [main] headers:267 - << X-Powered-By: ASP.NET
+2022-09-26 12:46:24,953 DEBUG [main] headers:267 - << Date: Mon, 26 Sep 2022 07:15:43 GMT
+2022-09-26 12:46:24,953 DEBUG [main] headers:267 - << Content-Length: 1293
+2022-09-26 12:46:24,954 DEBUG [main] DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2022-09-26 12:46:24,954 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: text/html
+2022-09-26 12:46:24,954 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-09-26 12:46:24,955 DEBUG [main] wire:72 -  << "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">[\r][\n]"
+2022-09-26 12:46:24,955 DEBUG [main] wire:72 -  << "<html xmlns="http://www.w3.org/1999/xhtml">[\r][\n]"
+2022-09-26 12:46:24,955 DEBUG [main] wire:72 -  << "<head>[\r][\n]"
+2022-09-26 12:46:24,955 DEBUG [main] wire:72 -  << "<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>[\r][\n]"
+2022-09-26 12:46:24,955 DEBUG [main] wire:72 -  << "<title>405 - HTTP verb used to access this page is not allowed.</title>[\r][\n]"
+2022-09-26 12:46:24,956 DEBUG [main] wire:72 -  << "<style type="text/css">[\r][\n]"
+2022-09-26 12:46:24,956 DEBUG [main] wire:72 -  << "<!--[\r][\n]"
+2022-09-26 12:46:24,956 DEBUG [main] wire:72 -  << "body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}[\r][\n]"
+2022-09-26 12:46:24,956 DEBUG [main] wire:72 -  << "fieldset{padding:0 15px 10px 15px;} [\r][\n]"
+2022-09-26 12:46:24,956 DEBUG [main] wire:72 -  << "h1{font-size:2.4em;margin:0;color:#FFF;}[\r][\n]"
+2022-09-26 12:46:24,956 DEBUG [main] wire:72 -  << "h2{font-size:1.7em;margin:0;color:#CC0000;} [\r][\n]"
+2022-09-26 12:46:24,956 DEBUG [main] wire:72 -  << "h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} [\r][\n]"
+2022-09-26 12:46:24,956 DEBUG [main] wire:72 -  << "#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;[\r][\n]"
+2022-09-26 12:46:24,956 DEBUG [main] wire:72 -  << "background-color:#555555;}[\r][\n]"
+2022-09-26 12:46:24,956 DEBUG [main] wire:72 -  << "#content{margin:0 0 0 2%;position:relative;}[\r][\n]"
+2022-09-26 12:46:24,956 DEBUG [main] wire:72 -  << ".content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}[\r][\n]"
+2022-09-26 12:46:24,956 DEBUG [main] wire:72 -  << "-->[\r][\n]"
+2022-09-26 12:46:24,957 DEBUG [main] wire:72 -  << "</style>[\r][\n]"
+2022-09-26 12:46:24,957 DEBUG [main] wire:72 -  << "</head>[\r][\n]"
+2022-09-26 12:46:24,957 DEBUG [main] wire:72 -  << "<body>[\r][\n]"
+2022-09-26 12:46:24,957 DEBUG [main] wire:72 -  << "<div id="header"><h1>Server Error</h1></div>[\r][\n]"
+2022-09-26 12:46:24,957 DEBUG [main] wire:72 -  << "<div id="content">[\r][\n]"
+2022-09-26 12:46:24,957 DEBUG [main] wire:72 -  << " <div class="content-container"><fieldset>[\r][\n]"
+2022-09-26 12:46:24,958 DEBUG [main] wire:72 -  << "  <h2>405 - HTTP verb used to access this page is not allowed.</h2>[\r][\n]"
+2022-09-26 12:46:24,958 DEBUG [main] wire:72 -  << "  <h3>The page you are looking for cannot be displayed because an invalid method (HTTP verb) was used to attempt access.</h3>[\r][\n]"
+2022-09-26 12:46:24,958 DEBUG [main] wire:72 -  << " </fieldset></div>[\r][\n]"
+2022-09-26 12:46:24,958 DEBUG [main] wire:72 -  << "</div>[\r][\n]"
+2022-09-26 12:46:24,958 DEBUG [main] wire:72 -  << "</body>[\r][\n]"
+2022-09-26 12:46:24,958 DEBUG [main] wire:72 -  << "</html>[\r][\n]"
+2022-09-26 12:46:24,959 DEBUG [main] BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2b400bd0
+2022-09-26 12:46:24,959 DEBUG [main] BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
