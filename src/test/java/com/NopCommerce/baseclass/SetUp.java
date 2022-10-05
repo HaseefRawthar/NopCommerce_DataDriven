@@ -47,8 +47,8 @@ public class SetUp {
 	public void start()
 	{
 		try {
-		 System.setProperty("webdriver.chrome.driver", "src/main/java/chromedriver.exe");
-			
+		// System.setProperty("webdriver.chrome.driver", "src/main/java/chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 			  ChromeOptions options = new ChromeOptions();
 			  
 			  options.addArguments("--no-sandbox"); options.addArguments("--headless");
